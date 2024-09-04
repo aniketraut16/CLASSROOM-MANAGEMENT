@@ -5,15 +5,15 @@ function Home() {
   return (
     <div className="home">
       <Link>
-        <img src="/public/admin.jpg" alt="" />
+        <img src="/admin.jpg" alt="" />
         <h2>Admin</h2>
       </Link>
       <Link to={"teacher"}>
-        <img src="/public/teacher.jpg" alt="" />
+        <img src="/teacher.jpg" alt="" />
         <h2>Teacher</h2>
       </Link>
       <Link to={"student"}>
-        <img src="/public/student.jpg" alt="" />
+        <img src="/student.jpg" alt="" />
         <h2>Student</h2>
       </Link>
     </div>
