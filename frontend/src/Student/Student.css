@@ -1,0 +1,107 @@
+:root {
+  --primary-color: #313467;
+  --primary-color-shadow: #f0eff4;
+}
+body {
+  margin: 0%;
+  padding: 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.Student {
+  width: 100%;
+
+  overflow: hidden;
+  padding-top: 8vh;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.Student aside * {
+  margin: 0%;
+}
+
+.Student aside {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  color: var(--primary-color-shadow);
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.Student aside a {
+  width: 90%;
+  padding: 5px;
+  background-color: var(--primary-color);
+  color: var(--primary-color-shadow);
+
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.student-dashboard {
+  background-color: var(--primary-color-shadow);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 10vh;
+}
+
+.facultydetail,
+.markdetails {
+  width: 45%;
+  min-height: 30%;
+  display: flex;
+  gap: 10px;
+}
+.attendancetable {
+  width: 94%;
+  min-height: 30%;
+  display: flex;
+  gap: 20%;
+}
+.attendancetable table td,
+.attendancetable table th {
+  padding: 10px 20px;
+  border: 1px solid var(--primary-color-shadow);
+}
+
+.student-dashboard > div {
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+.active-Link {
+  background-color: var(--primary-color-shadow) !important;
+  color: var(--primary-color) !important;
+}
+.student-table,
+.datewise-attendance {
+  width: 94%;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.datewise-attendance table,
+.student-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table table th,
+.student-table table td,
+.datewise-attendance table th,
+.datewise-attendance table td {
+  padding: 10px;
+  border: 1px solid var(--primary-color-shadow);
+  text-align: center;
+}
