@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Student from "./Student/Student";
 import Teacher from "./Teacher/Teacher";
+import Admin from "./Admin/Admin";
 function App() {
   return (
     <>
@@ -26,6 +27,7 @@ function App() {
           <Route path="" element={<Home />} />
           <Route path="student" element={<Student />} />
           <Route path="teacher" element={<Teacher />} />
+          <Route path="admin" element={<Admin />} />
         </Route>
       </Routes>
     </>

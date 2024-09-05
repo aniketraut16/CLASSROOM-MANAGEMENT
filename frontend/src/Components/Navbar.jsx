@@ -77,7 +77,10 @@ function Navbar() {
         </div>
       </aside>
       <button className="chatbot-toggle" onClick={toggleChatbot}>
-        <MessageCircle />
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span> <MessageCircle /> Chat Now
       </button>
       <Outlet />
     </>
